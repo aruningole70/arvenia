@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.414" height="22.414" viewBox="0 0 22.414 22.414">
+  <g id="pen-tool" transform="translate(-0.586 -0.586)">
+    <path id="Path_38046" data-name="Path 38046" d="M12,19l7-7,3,3-7,7Z" fill="none" stroke="#172026" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_38047" data-name="Path 38047" d="M18,13,16.5,5.5,2,2,5.5,16.5,13,18Z" fill="none" stroke="#172026" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_38048" data-name="Path 38048" d="M2,2,9.586,9.586" fill="none" stroke="#172026" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle id="Ellipse_144" data-name="Ellipse 144" cx="2" cy="2" r="2" transform="translate(9 9)" fill="none" stroke="#172026" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
