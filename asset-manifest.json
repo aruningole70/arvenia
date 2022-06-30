@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/venia/static/css/main.ff0d5bc3.css",
-    "main.js": "/venia/static/js/main.c8c45355.js",
-    "static/js/787.8bb0473a.chunk.js": "/venia/static/js/787.8bb0473a.chunk.js",
-    "index.html": "/venia/index.html",
-    "static/media/search.svg": "/venia/static/media/search.d9388588132a09c360a92e9f450b2fa1.svg",
-    "main.ff0d5bc3.css.map": "/venia/static/css/main.ff0d5bc3.css.map",
-    "main.c8c45355.js.map": "/venia/static/js/main.c8c45355.js.map",
-    "787.8bb0473a.chunk.js.map": "/venia/static/js/787.8bb0473a.chunk.js.map"
+    "main.css": "/arvenia/static/css/main.ff0d5bc3.css",
+    "main.js": "/arvenia/static/js/main.402c456f.js",
+    "static/js/787.8bb0473a.chunk.js": "/arvenia/static/js/787.8bb0473a.chunk.js",
+    "index.html": "/arvenia/index.html",
+    "static/media/search.svg": "/arvenia/static/media/search.d9388588132a09c360a92e9f450b2fa1.svg",
+    "main.ff0d5bc3.css.map": "/arvenia/static/css/main.ff0d5bc3.css.map",
+    "main.402c456f.js.map": "/arvenia/static/js/main.402c456f.js.map",
+    "787.8bb0473a.chunk.js.map": "/arvenia/static/js/787.8bb0473a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff0d5bc3.css",
-    "static/js/main.c8c45355.js"
+    "static/js/main.402c456f.js"
   ]
 }
