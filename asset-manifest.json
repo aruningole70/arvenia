@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/arvenia/static/css/main.ff0d5bc3.css",
-    "main.js": "/arvenia/static/js/main.8dace5d1.js",
+    "main.css": "/arvenia/static/css/main.1bf8201f.css",
+    "main.js": "/arvenia/static/js/main.a0f0cd92.js",
     "static/js/787.8bb0473a.chunk.js": "/arvenia/static/js/787.8bb0473a.chunk.js",
     "index.html": "/arvenia/index.html",
+    "static/media/shoppingbag.svg": "/arvenia/static/media/shoppingbag.7865a20d4f73677ab5144fd6411a11f8.svg",
     "static/media/search.svg": "/arvenia/static/media/search.d9388588132a09c360a92e9f450b2fa1.svg",
-    "main.ff0d5bc3.css.map": "/arvenia/static/css/main.ff0d5bc3.css.map",
-    "main.8dace5d1.js.map": "/arvenia/static/js/main.8dace5d1.js.map",
+    "static/media/user.svg": "/arvenia/static/media/user.91483d78eeba2c3d646d79ed77b449f4.svg",
+    "main.1bf8201f.css.map": "/arvenia/static/css/main.1bf8201f.css.map",
+    "main.a0f0cd92.js.map": "/arvenia/static/js/main.a0f0cd92.js.map",
     "787.8bb0473a.chunk.js.map": "/arvenia/static/js/787.8bb0473a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff0d5bc3.css",
-    "static/js/main.8dace5d1.js"
+    "static/css/main.1bf8201f.css",
+    "static/js/main.a0f0cd92.js"
   ]
 }
