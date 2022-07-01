@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/arvenia/static/css/main.1bf8201f.css",
-    "main.js": "/arvenia/static/js/main.9f7db56a.js",
+    "main.js": "/arvenia/static/js/main.1935ee6b.js",
     "static/js/787.8bb0473a.chunk.js": "/arvenia/static/js/787.8bb0473a.chunk.js",
     "static/media/hero.png": "/arvenia/static/media/hero.481a0719b1da5e399071.png",
     "static/media/slack.svg": "/arvenia/static/media/slack.c960e95535cd9b3149ccf0f0830ec002.svg",
@@ -33,11 +33,11 @@
     "static/media/header2.svg": "/arvenia/static/media/header2.83eff1d6365d4bee07af8f1abc519672.svg",
     "static/media/headerline.svg": "/arvenia/static/media/headerline.2d056cfe92516b65f8fa9410acada2c3.svg",
     "main.1bf8201f.css.map": "/arvenia/static/css/main.1bf8201f.css.map",
-    "main.9f7db56a.js.map": "/arvenia/static/js/main.9f7db56a.js.map",
+    "main.1935ee6b.js.map": "/arvenia/static/js/main.1935ee6b.js.map",
     "787.8bb0473a.chunk.js.map": "/arvenia/static/js/787.8bb0473a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1bf8201f.css",
-    "static/js/main.9f7db56a.js"
+    "static/js/main.1935ee6b.js"
   ]
 }
