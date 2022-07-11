@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/arvenia/static/css/main.83881f78.css",
-    "main.js": "/arvenia/static/js/main.83707f87.js",
+    "main.css": "/arvenia/static/css/main.4afe6f5f.css",
+    "main.js": "/arvenia/static/js/main.7ad6f1c7.js",
     "static/js/787.8bb0473a.chunk.js": "/arvenia/static/js/787.8bb0473a.chunk.js",
     "static/media/hero.png": "/arvenia/static/media/hero.481a0719b1da5e399071.png",
+    "static/media/image3.png": "/arvenia/static/media/image3.dcc063bce1cb79b59ef1.png",
+    "static/media/image2.png": "/arvenia/static/media/image2.bd781b9d4d7096811344.png",
+    "static/media/image1.png": "/arvenia/static/media/image1.90c301aca0bbf15c3581.png",
+    "static/media/image4.png": "/arvenia/static/media/image4.60752688d4dce1f3203a.png",
     "static/media/slack.svg": "/arvenia/static/media/slack.c960e95535cd9b3149ccf0f0830ec002.svg",
     "static/media/sliders.svg": "/arvenia/static/media/sliders.0bc0acedaae026b86f71690af143e99e.svg",
     "static/media/share.svg": "/arvenia/static/media/share.c9452d8d0a01f15f7b30c66f52b97baa.svg",
@@ -29,15 +33,17 @@
     "static/media/star1.svg": "/arvenia/static/media/star1.55cdb6a54c038786c25f41486284f7d2.svg",
     "static/media/facebook.svg": "/arvenia/static/media/facebook.b5b54c5572636785078aa70b8bdffe26.svg",
     "static/media/right.svg": "/arvenia/static/media/right.e6ef03debb0bd1ac0705b65e5a3865f2.svg",
+    "static/media/right1.svg": "/arvenia/static/media/right1.e6ef03debb0bd1ac0705b65e5a3865f2.svg",
     "static/media/left.svg": "/arvenia/static/media/left.4ac6ee7882c74803488aa3c28a368590.svg",
+    "static/media/left1.svg": "/arvenia/static/media/left1.4ac6ee7882c74803488aa3c28a368590.svg",
     "static/media/header2.svg": "/arvenia/static/media/header2.83eff1d6365d4bee07af8f1abc519672.svg",
     "static/media/headerline.svg": "/arvenia/static/media/headerline.2d056cfe92516b65f8fa9410acada2c3.svg",
-    "main.83881f78.css.map": "/arvenia/static/css/main.83881f78.css.map",
-    "main.83707f87.js.map": "/arvenia/static/js/main.83707f87.js.map",
+    "main.4afe6f5f.css.map": "/arvenia/static/css/main.4afe6f5f.css.map",
+    "main.7ad6f1c7.js.map": "/arvenia/static/js/main.7ad6f1c7.js.map",
     "787.8bb0473a.chunk.js.map": "/arvenia/static/js/787.8bb0473a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83881f78.css",
-    "static/js/main.83707f87.js"
+    "static/css/main.4afe6f5f.css",
+    "static/js/main.7ad6f1c7.js"
   ]
 }
