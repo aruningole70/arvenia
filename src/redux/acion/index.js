@@ -32,6 +32,3 @@ export const Remove = (product) => {
         product: product
     }
 }
-// export const productDetails = (product) => {
-//     return product;
-// }

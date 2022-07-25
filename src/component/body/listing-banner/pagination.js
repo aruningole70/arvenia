@@ -33,12 +33,12 @@ const Pgination = ({ showperpage, onPaginationChange, total }) => {
     return (
         <div className="paginate">
             <ul>
-                <li><button onClick={() => onButtonClick("prev")}><img src={left} alt="" /></button></li>
+                <li><button onClick={() => onButtonClick("prev")}>(<img src={left} alt="" />)</button></li>
                 <li><span>1</span></li>
                 <li><span>2</span></li>
                 <li><span>3</span></li>
                 <li><span>4</span></li>
-                <li><button onClick={() => onButtonClick("next")}><img src={right} alt="" /></button></li>
+                <li><button onClick={() => onButtonClick("next")}>(<img src={right} alt="" />)</button></li>
             </ul>
         </div>
     );

@@ -1,15 +1,19 @@
 import React from "react";
+import '../../App.css';
 
-function mobileMenue() {
+const Comp1  = () => {
     return (
-        <div>
-            <ul>
-                <li>Women</li>
-                <li>Men</li>
-                <li>Smart Gear</li>
-                <li>Accessories</li>
-            </ul>
-        </div>
+        <div className="mobile-menu">
+        <ul>
+          <li><a href='#'>Women</a></li>
+          <hr/>
+          <li><a href='#'>Men</a></li>
+          <hr/>
+          <li><a href='#'>Smart Gear</a></li>
+          <hr/>
+          <li><a href='#'>Accessories</a></li>
+        </ul>
+      </div> 
     );
 }
-export default mobileMenue;
+  export default Comp1;

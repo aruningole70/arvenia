@@ -17,22 +17,23 @@
 }
 
 .p-logo {
-    display: flex;
-    padding-top: 5%;
-    justify-content: space-around;
-
-    li {
-        list-style-type: none;
+    ul{
+        display: flex;
+        padding-top: 5%;
+        justify-content: space-around;
+        li {
+            list-style-type: none;
+        }
     }
 }
-
 .p-logo2 {
-    display: flex;
-    padding-top: 5%;
-    justify-content: space-around;
-
-    li {
-        list-style-type: none;
+    ul{
+        display: flex;
+        padding-top: 5%;
+        justify-content: space-around;
+        li {
+            list-style-type: none;
+        }
     }
 }
 
@@ -176,5 +177,10 @@
         letter-spacing: 0px;
         color: #172026;
         opacity: 1;
+    }
+}
+@media (max-widht: 786px) {
+    .sub-image{
+        display: none;
     }
 }

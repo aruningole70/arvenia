@@ -133,16 +133,17 @@
 }
 
 .cart-list {
-
-    // padding-left: 30px;
-    li {
-        text-align: left;
-        list-style-type: none;
-        font: normal normal normal 20px/25px Muli;
-        letter-spacing: 0px;
-        color: #172026;
-        opacity: 1;
+    ul{
+        li {
+            text-align: left;
+            list-style-type: none;
+            font: normal normal normal 20px/25px Muli;
+            letter-spacing: 0px;
+            color: #172026;
+            opacity: 1;
+        }
     }
+  
 }
 .cart-button{
     display: flex;
@@ -153,6 +154,16 @@
     }
     .paypal{
         margin: 2%;
+    }
+}
+.corosal{
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+}
+.arrow{
+    img{
+        height: 100px;
     }
 }
 @media (max-width: 998px) {

@@ -1,50 +1,109 @@
-.list-item{
+
+.list-item {
     text-align: center;
     padding-top: 1%;
     display: flex;
-   ul{
-    justify-content: space-around;
-    li{
-        display: inline;
-        padding-left: 40px;
-        position: relative;
-        list-style-type: none;
-        a{
-        text-decoration: none;
-        color: black;
-        }
 
+    ul {
+        justify-content: space-around;
+
+        li {
+            display: inline;
+            padding-left: 40px;
+            position: relative;
+            list-style-type: none;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+        }
     }
-   }
 }
-.list-item-icon{
+
+.list-item-icon {
     text-align: right;
     padding-top: 1%;
-    ul{
-        li{
+
+    ul {
+        li {
             display: inline;
             list-style-type: none;
             padding-right: 25px;
         }
-       }
+    }
 }
+
+.mobile-menu {
+    text-align: left;
+    color: black;
+
+    ul {
+        li {
+            list-style-type: none;
+            padding-left: 20px;
+            padding-top: 2%;
+
+
+            a {
+
+                font: normal normal normal 16px/24px Muli;
+                letter-spacing: 0px;
+                color: #172026;
+                opacity: 1;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.cart-icon {
+    display: flex;
+    text-align: end;
+    margin-right: 2rem;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+
+    p {
+        position: absolute;
+        width: 4rem;
+        right: -1.2rem;
+        top: 0.9rem;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--main-color);
+    }
+}
+
 @media (max-width:998px) {
-    .main-nav{
+    .main-nav {
         display: none;
     }
 }
-.mobile-nav{
-    ul{
+
+.mobile-nav {
+    ul {
         display: flex;
         padding-top: 2%;
         justify-content: space-between;
-        li{
+
+        li {
+            button {
+                border: none;
+                background: none;
+            }
+
             list-style-type: none;
         }
     }
 }
+
 @media (min-width:998px) {
-    .mobile-nav{
+    .mobile-nav {
         display: none;
     }
 }

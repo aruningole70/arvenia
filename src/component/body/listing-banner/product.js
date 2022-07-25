@@ -1,30 +1,31 @@
 import { useEffect, useState } from "react";
-// import ProductsDetails from "./ProductsDetails";
 import ListingBanner from "./listing-banner";
 
 function Categories() {
+
   const [initialDataCat, setDataCat] = useState([]);
+
+  const [sort, setSort] = useState();
+
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch("https://fakestoreapi.com/products")
       .then((res) => res.json())
       .then((data) => setDataCat(data));
+    setLoading(false);
   }, []);
-  //  const [onfilterChange, setFilterChange] = useState ([])
-  const [sort, setSort] = useState()
   const onfilterChange = (filter) => {
-
-    console.log("onfilter", sort);
     if (filter) {
       const result = initialDataCat.sort((a, b) => a.price - b.price);
-      // console.log(initialDataCat);
       return setSort(result);
-      
+    }
+    else {
+      return setSort(sort);
     }
   }
-  // console.log(sort);
 
-  return <ListingBanner data={initialDataCat} filterChange={onfilterChange} />
+  return <ListingBanner loading={loading} data={initialDataCat} filterChange={onfilterChange} />
 }
 
 export default Categories;

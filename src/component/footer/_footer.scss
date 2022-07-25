@@ -21,9 +21,13 @@
 }
 
 .footer-icon {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    ul{
+        display: flex;
+        text-align: left;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
 }
 
 .logo-image {
@@ -55,4 +59,8 @@
         color: #172026;
         opacity: 1;
     }
+}
+.botom-content{
+    display: flex;
+    flex-wrap: wrap;
 }

@@ -21,39 +21,29 @@ import star from '../../../assects/star.svg';
 import star1 from '../../../assects/star1.svg';
 
 function Product() {
-
-
+    const [isloading , setIsloading] = useState(true);
     const myState = useSelector((state) => state.Change);
-    // const myProductState = useSelector((state) => state.addCart);
     const { id } = useParams();
-    // let productDetails = {};
-    // console.log("",id);
     const [product, setProduct] = useState([]);
     const dispatch = useDispatch();
-
     const getProducts = async () => {
         const response = await fetch(`https://fakestoreapi.com/products/${id}`);
         const data = await response.json();
         setProduct(data);
+        setIsloading(false);
     }
-
     useEffect(() => {
         getProducts();
     }, [id]);
-
-    // useEffect(() => {
-    //     // fetch('https://fakestoreapi.com/products/${id}')
-    //     // .then((res) => res.json())
-    //     // .then((data) => productDetails = data);
-    //   }, []);
-
     return (
         <div className="product-detail">
+            { isloading ? (<h1 style={{fontSize:"62px"}}>Loading...</h1>) :
+            <>
             <div className="aem-Grid aem-Grid--12 demo-Grid">
                 <div className="aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--tablet--6 aem-GridColumn--phone--12 demo-GridColumn">
                     <div className="aem-Grid aem-Grid--12 demo-Grid image-section">
-                        <div className="aem-GridColumn aem-GridColumn--default--4 demo-GridColumn sub-images">
-                            <div className="sub-images">
+                        <div className="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--hide demo-GridColumn sub-images">
+                            <div className="sub-image">
                                 <div className="sub-img-style"><img src={product.image} alt="here is product image" /></div>
                                 <div className="sub-img-style" ><img src={product.image} alt="here is product image" /></div>
                                 <div className="sub-img-style"><img src={product.image} alt="here is product image" /></div>
@@ -71,11 +61,11 @@ function Product() {
                         <h2>{product.title}</h2>
                         <p>${product.price}</p>
                         <p>
-                            <img src={star} alt="give rating to product" />
-                            <img src={star} alt="give rating to product" />
-                            <img src={star} alt="give rating to product" />
-                            <img src={star} alt="give rating to product" />
-                            <img src={star1} alt="give rating to product" />(175)
+                            <img src={star} alt="this is rating" />
+                            <img src={star} alt="this is rating" />
+                            <img src={star} alt="this is rating" />
+                            <img src={star} alt="this is rating" />
+                            <img src={star1} alt="this is rating" />(175)
                         </p>
                         <p><span>{product.description}</span></p>
                     </div>
@@ -83,10 +73,10 @@ function Product() {
                     <div className="product-button">
                         <div className="color-button">
                             <p>Color</p>
-                            <button className="button1"><img src={Swatch01} alt="give rating to product" /></button>&nbsp;  &nbsp;
-                            <button className="button2"><img src={Swatch02} alt="give rating to product" /></button>&nbsp;  &nbsp;
-                            <button className="button3"><img src={Swatch03} alt="give rating to product" /></button>&nbsp;  &nbsp;
-                            <button className="button4"><img src={Swatch04} alt="give rating to product" /></button>&nbsp;  &nbsp;
+                            <button className="button1">(<img src={Swatch01} alt="choose the color" />)</button>&nbsp;  &nbsp;
+                            <button className="button2">(<img src={Swatch02} alt="choose the color"/>)</button>&nbsp;  &nbsp;
+                            <button className="button3">(<img src={Swatch03} alt="choose the color"/>)</button>&nbsp;  &nbsp;
+                            <button className="button4">(<img src={Swatch04} alt="choose the color"/>)</button>&nbsp;  &nbsp;
                         </div>
                         <div className="size-buttons">
                             <p>Size</p>
@@ -122,15 +112,20 @@ function Product() {
                 <div className="aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--tablet--6 aem-GridColumn--phone--12 demo-GridColum">
                     <h4>Details</h4>
                     <div className="p-logo">
+                        <ul>
                         <li><img src={slack} alt="photo" />Sweat-wicking</li>
                         <li><img src={coffee} alt="photo" />Breathable</li>
+                        </ul>
                     </div>
                     <div className="p-logo2">
+                        <ul>
                         <li><img src={feather} alt="photo" />Lightweight fabric</li>
                         <li><img src={layers} alt="photo" />69% nylon, 31% lycra</li>
+                        </ul>
                     </div>
                 </div>
             </div>
+            </>}
         </div>
     );
 }
